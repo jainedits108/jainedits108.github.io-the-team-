@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://github.com/jainedits108/jainedits108.github.io-the-team-/blob/main/unnamed-removebg-preview.png?raw=true') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 2rem;
+}
+
+/* Navigation Bar Styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #171717;
+  padding: 5px 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Overlay Container for Team Page */
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #f0e68c;
+}
+
+/* Team Member Name Styling */
+.name {
+  margin-left: 1.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffdf8c;
+}
+
+/* Team Member Contribution Styling */
+.contribution {
+  margin-left: 3rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .overlay {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .contribution {
+    font-size: 0.95rem;
+  }
+}
